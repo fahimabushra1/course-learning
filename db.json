@@ -1,0 +1,113 @@
+{
+    "courses":[
+        
+            [
+                {
+                  "title": "The Complete 2023 Web Development Bootcamp",
+                  "description": "Learn web development with HTML, CSS, JS, Node, and more! Build real projects and learn skills for a full-stack developer career.",
+                  "instructor": "Angela Yu",
+                  "image": "https://img.graphicsurf.com/2020/06/Web-development-courses-flat-design-720x480.jpg",
+                  "price": 99.99
+                },
+                {
+                  "title": "JavaScript: Understanding the Weird Parts",
+                  "description": "An advanced JavaScript course for everyone! Scope, closures, prototypes, and more.",
+                  "instructor": "Anthony Alicea",
+                  "image": "https://w3-lab.com/wp-content/uploads/2019/12/Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg",
+                  "price": 89.99
+                },
+                {
+                  "title": "The Web Developer Bootcamp",
+                  "description": "Learn HTML, CSS, JS, Node, and more from the most popular web development course on Udemy.",
+                  "instructor": "Colt Steele",
+                  "image": "https://c8.alamy.com/comp/2DAW2W1/web-development-inscription-against-laptop-and-code-background-learn-web-development-programming-language-computer-courses-training-2DAW2W1.jpg",
+                  "price": 94.99
+                },
+                {
+                  "title": "Modern HTML & CSS From The Beginning",
+                  "description": "Build modern, responsive websites and web design applications with HTML5 and CSS3.",
+                  "instructor": "Brad Traversy",
+                  "image": "https://www.venturelessons.com/wp-content/uploads/2019/05/webdesign-online-courses-feature.jpg",
+                  "price": 84.99
+                },
+                {
+                  "title": "The Complete JavaScript Course 2023: From Zero to Expert!",
+                  "description": "Master JavaScript with projects, challenges, and theory. Many courses in one!",
+                  "instructor": "Jonas Schmedtmann",
+                  "image": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/09/23164055/Web-Designing-Course-Syllabus.jpg",
+                  "price": 99.99
+                },
+                {
+                  "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+                  "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js, and way more!",
+                  "instructor": "Maximilian Schwarzmüller",
+                  "image": "https://tse3.mm.bing.net/th?id=OIP.XoB3AKrDXuhN-9f2o-bVaQHaFj&pid=Api&P=0&h=220",
+                  "price": 119.99
+                },
+                {
+                  "title": "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+                  "description": "The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and more.",
+                  "instructor": "Jonas Schmedtmann",
+                  "image": "https://i.pinimg.com/736x/4c/91/18/4c9118046e8e38d60a99db40fd801661.jpg",
+                  "price": 109.99
+                },
+                {
+                  "title": "Build Responsive Real World Websites with HTML5 and CSS3",
+                  "description": "The easiest way to learn modern web design, HTML5, and CSS3 step-by-step from scratch. Design AND code a huge project.",
+                  "instructor": "Jonas Schmedtmann",
+                  "image": "https://www.venturelessons.com/wp-content/uploads/2019/05/webdesign-online-courses-feature.jpg",
+                  "price": 99.99
+                },
+                {
+                  "title": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2023",
+                  "description": "Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments, and more).",
+                  "instructor": "https://www.venturelessons.com/wp-content/uploads/2019/05/webdesign-online-courses-feature.jpg",
+                  "price": 119.99
+                },
+                {
+                  "title": "Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)",
+                  "description": "Become a Senior React Developer. Build large-scale React applications using Redux, Hooks, GraphQL, Context API, Stripe, Firebase.",
+                  "instructor": "Andrei Neagoie & Yihua Zhang",
+                  "image": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/09/23164055/Web-Designing-Course-Syllabus.jpg",
+                  "price": 129.99
+                },
+                {
+                  "title": "Web Design for Beginners: Real World Coding in HTML & CSS",
+                  "description": "Launch a career as a web designer by learning HTML5, CSS3, responsive design, Sass, and more!",
+                  "instructor": "Brad Schiff",
+                  "image": "https://tse3.mm.bing.net/th?id=OIP.XoB3AKrDXuhN-9f2o-bVaQHaFj&pid=Api&P=0&h=220",
+                  "price": 79.99
+                },
+                {
+                  "title": "Full-Stack Web Development with React",
+                  "description": "Learn full-stack web development with React, Redux, and Node.js in this hands-on guide.",
+                  "instructor": "Jogesh K. Muppala",
+                  "image": "https://www.venturelessons.com/wp-content/uploads/2019/05/webdesign-online-courses-feature.jpg",
+                  "price": 109.99
+                },
+                {
+                  "title": "The Complete Guide to Angular 2023: Beginner to Advanced",
+                  "description": "Master Angular 12 (formerly Angular 2) and build awesome, reactive web apps with the successor of Angular.js.",
+                  "instructor": "Maximilian Schwarzmüller",
+                  "image": "https://w3-lab.com/wp-content/uploads/2019/12/Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg",
+                  "price": 119.99
+                },
+                {
+                  "title": "Vue - The Complete Guide (incl. Router & Composition API)",
+                  "description": "Vue.js is an awesome JavaScript Framework for building Frontend Applications! VueJS mixes the best of Angular + React!",
+                  "instructor": "Maximilian Schwarzmüller",
+                  "image": "https://img.graphicsurf.com/2020/06/Web-development-courses-flat-design-720x480.jpg",
+                  "price": 109.99
+                },
+                {
+                  "title": "HTML, CSS, and JavaScript for Web Developers",
+                  "description": "Learn the basics of web development with HTML, CSS, and JavaScript.",
+                  "instructor": "https://www.venturelessons.com/wp-content/uploads/2019/05/webdesign-online-courses-feature.jpg",
+                  "price": 89.99
+                }
+              ]
+              
+          
+          
+    ]
+}
