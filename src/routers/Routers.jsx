@@ -5,7 +5,7 @@ import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import DashboardLayout from "../layouts/DashboardLayout";
 import ProductDetails from "../components/ProductDetails";
-// import PrivateRoute from "./PrivateRoute";
+import PrivateRoute from "./PrivateRoute";
 import EditProduct from "../pages/EditProduct";
 
  export const router = createBrowserRouter([
@@ -16,20 +16,20 @@ import EditProduct from "../pages/EditProduct";
       {
         path:"/",
         element: 
-        // <PrivateRoute>
-          <Dashboard/>,
-        // </PrivateRoute> ,
+        <PrivateRoute>
+          <Dashboard/>
+        </PrivateRoute> ,
         
       },
       {
         path: "/courses/:id",
         element: <ProductDetails/>,
-        loader:({params})=>fetch(`http://localhost:3000/courses/${params.id}`),
+        loader:({params})=>fetch(`https://course-learning-server-riha.vercel.app/courses/${params.id}`),
      },
       {
         path: "/courses/edit-product/:id",
         element: <EditProduct/>,
-        loader:({params})=>fetch(`http://localhost:3000/courses/${params.id}`),
+        loader:({params})=>fetch(`https://course-learning-server-riha.vercel.app/courses/${params.id}`),
      },
       {
         path:"/login",
@@ -41,7 +41,10 @@ import EditProduct from "../pages/EditProduct";
       },
       {
         path:"/add-product",
-        element: <AddProduct/>,
+        element:
+        <PrivateRoute>
+           <AddProduct/>
+        </PrivateRoute>
       },
   ]
   },

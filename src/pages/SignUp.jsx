@@ -65,6 +65,14 @@ const SignUp = () => {
           </label>
           <input type="password" name="password" placeholder="password" className="input input-bordered" required />
         </div>
+        
+            {
+              passMatch &&
+                (<div className="my-2">
+                  <p className="text-red-500">Passwords do not match</p>
+                </div>)
+             }
+        
         <div className="form-control">
           <label className="label">
             <span className="label-text">Confirm Password</span>

@@ -8,7 +8,7 @@ const Product = ({product, onDelete}) => {
     const {_id,title,price}= product;
 
     const handleDelete = async () =>{
-      await fetch(`http://localhost:3000/courses/${_id}`,{
+      await fetch(`https://course-learning-server-riha.vercel.app/courses/${_id}`,{
           method: "DELETE",
         })
           .then((res) =>res.json())

@@ -17,7 +17,7 @@ const EditProduct = () => {
     
 const data = {title,instructor,price,description,image}
 
-    fetch(`http://localhost:3000/courses/${_id}`,{
+    fetch(`https://course-learning-server-riha.vercel.app/courses/${_id}`,{
       method:"PATCH",
       headers:{
         "Content-type":"application/json",
