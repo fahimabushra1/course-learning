@@ -27,9 +27,9 @@ const Product = ({product, onDelete}) => {
     <p>Title: {title}</p>
     <p>Price: {price}</p>
     <div className="card-actions justify-end">
-      <button className="mr-2 bg-green-500 p-2 rounded"><Link to={`/courses/${_id}`}>Detail</Link></button>
-      {/* <button className="mr-2 bg-green-500 p-2 rounded"><Link to='/products/:id'>Detail</Link></button> */}
-      <button onClick={handleDelete} className="bg-red-500 p-2 rounded">Delete</button>
+      <button className="mr-2 bg-[#97CE68] p-2 rounded"><Link to={`/courses/${_id}`}>Detail</Link></button>
+      <button className="mr-2 bg-[#1DABB8] p-2 rounded"><Link to={`/courses/edit-product/${_id}`}>Edit</Link></button>
+      <button onClick={handleDelete} className="bg-[#E01931] p-2 rounded">Delete</button>
     </div>
   </div>
 </div>

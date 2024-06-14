@@ -5,7 +5,8 @@ import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import DashboardLayout from "../layouts/DashboardLayout";
 import ProductDetails from "../components/ProductDetails";
-// import EditProduct from "../pages/EditProduct";
+// import PrivateRoute from "./PrivateRoute";
+import EditProduct from "../pages/EditProduct";
 
  export const router = createBrowserRouter([
   {
@@ -14,18 +15,22 @@ import ProductDetails from "../components/ProductDetails";
     children:[
       {
         path:"/",
-        element: <Dashboard/>,
+        element: 
+        // <PrivateRoute>
+          <Dashboard/>,
+        // </PrivateRoute> ,
+        
       },
       {
         path: "/courses/:id",
         element: <ProductDetails/>,
         loader:({params})=>fetch(`http://localhost:3000/courses/${params.id}`),
      },
-    //   {
-    //     path: "/products/:id",
-    //     element: <EditProduct/>,
-    //     loader:({params})=>fetch(`http://localhost:3000/courses/${params.id}`),
-    //  },
+      {
+        path: "/courses/edit-product/:id",
+        element: <EditProduct/>,
+        loader:({params})=>fetch(`http://localhost:3000/courses/${params.id}`),
+     },
       {
         path:"/login",
         element: <Login/>,

@@ -6,7 +6,6 @@ const LoadingSpinner = () => {
           className="w-14 h-14 rounded-full bg-radial bg-gradient-to-tr animate-spin [animation-delay:.7s]"
         ></div>
       </div>
-      
     );
 };
 
